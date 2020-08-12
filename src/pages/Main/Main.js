@@ -6,6 +6,10 @@ import FirstFeed from "./FirstFeed";
 import SecondFeed from "./SecondFeed";
 import AsideNav from "./AsideNav";
 
+const obj = {
+  memberA: function asdfFunctionNAme() {},
+};
+
 class Main extends React.Component {
   render() {
     return (

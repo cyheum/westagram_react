@@ -70,7 +70,7 @@ class AsideNav extends React.Component {
             {userData.storyProfileList.map((userInfo) => (
               <StoryRecommendProfiles
                 key={userInfo.iD}
-                profileImageSrc={userInfo.profileImageSrc}
+                profileImageSrc={this.userInfo.profileImageSrc}
                 iD={userInfo.iD}
                 description={userInfo.lastLoginTime}
               />
